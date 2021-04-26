@@ -9,7 +9,6 @@
 
 body {
     margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
     background-color: #b61924;
 }
   
@@ -17,7 +16,7 @@ canvas {
     display: block;
     vertical-align: bottom;
 }
-  
+
 /* ---- particles.js container ---- */
   
 #particles-js {
@@ -31,10 +30,24 @@ canvas {
     background-position: 50% 50%;
 }
 
-h1, p {
+/* ---- text styling ---- */
+
+h1, h2, p, blockquote {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     margin-left: 5px;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    color: rgb(0, 255, 255);
+}
+
+img {
+    padding: 5px;
 }
 
 /* ---- button ---- */

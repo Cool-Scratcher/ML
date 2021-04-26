@@ -111,6 +111,7 @@ particlesJS("particles-js", {
     "retina_detect": true
 });
 
+/* ---- button!! ---- */
 /* ---- button ripple ---- */
 const btn = document.querySelector(".btn");
 
@@ -139,6 +140,6 @@ btn.onclick = function (e) {
     // Remove span after 0.3s
     setTimeout(() => {
         ripple.remove();
-        window.location = "main"
+        window.location = "main.html"
     }, 300);
 }
